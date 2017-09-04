@@ -58,7 +58,6 @@ static const clockid_t android_alarm_to_clockid[N_ANDROID_TIMERFDS] = {
     CLOCK_BOOTTIME,
     CLOCK_MONOTONIC,
     CLOCK_POWEROFF_ALARM,
-    CLOCK_REALTIME,
 };
 /* to match the legacy alarm driver implementation, we need an extra
    CLOCK_REALTIME fd which exists specifically to be canceled on RTC changes */
